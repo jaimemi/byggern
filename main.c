@@ -2,6 +2,8 @@
 #include <util/delay.h>
 #include <avr/io.h>
 
+// Add a nice comment
+
 int main(){
   DDRB = (1 << PB0);
 
